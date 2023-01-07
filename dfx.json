@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "canisters": {
+    "ic_cdk_macro_intellisense_test_backend": {
+      "type": "rust",
+      "package": "ic_cdk_macro_intellisense_test_backend",
+      "candid": "src/ic_cdk_macro_intellisense_test_backend/ic_cdk_macro_intellisense_test_backend.did"
+    },
+    "ic_cdk_macro_intellisense_test_frontend": {
+      "type": "assets",
+      "source": [
+        "src/ic_cdk_macro_intellisense_test_frontend/assets"
+      ],
+      "dependencies": [
+        "ic_cdk_macro_intellisense_test_backend"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  }
+}

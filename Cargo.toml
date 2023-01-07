@@ -1,0 +1,4 @@
+[workspace]
+members = [
+    "src/ic_cdk_macro_intellisense_test_backend",
+]
